@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloWorld {
 	
-	@GetMapping("/")
+	@GetMapping("/hellosb")
 	public String index(HttpServletRequest request) {
 		  		  
 		  return "Hello World!";
